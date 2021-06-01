@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useAlert } from "react-alert";
 import { Link } from "react-router-dom";
-import { useAuth } from "../context/auth";
-import { getIsPetSaved, savePet, unSavePet, adoptPet, fosterPet, returnPet, deletePet } from "../lib/api";
+import { useAuth } from "../../context/auth";
+import { getIsPetSaved, savePet, unSavePet, adoptPet, fosterPet, returnPet, deletePet } from "../../lib/petApi";
 
 const PetPage = () => {
     const auth = useAuth();

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useAlert } from "react-alert";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
-import { getPetsByType } from "../lib/api";
-import CardsList from "./CardsList";
+import { getPetsByType } from "../../lib/petApi";
+import CardsList from "../profile/CardsList";
 
 const BasicSearchForm = () => {
     const [pets, setPets] = useState();

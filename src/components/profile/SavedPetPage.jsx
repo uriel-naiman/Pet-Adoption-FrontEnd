@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../context/auth';
-import CardsList from './CardsList';
-import {getSavedPetsByUserId} from '../lib/api';
+import { useAuth } from '../../context/auth';
+import CardsList from '../profile/CardsList';
+import {getSavedPetsByUserId} from '../../lib/petApi';
 
 const SavedPetPage = ({ petsArray }) => {
     const auth = useAuth();

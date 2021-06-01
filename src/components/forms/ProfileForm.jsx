@@ -1,7 +1,7 @@
 import { useAlert } from "react-alert";
 import { useForm } from "react-hook-form";
-import { useAuth } from "../context/auth";
-import { updateUser } from "../lib/api";
+import { useAuth } from "../../context/auth";
+import { updateUser } from "../../lib/userApi";
 
 const ProfileForm = () => {
   const auth = useAuth();

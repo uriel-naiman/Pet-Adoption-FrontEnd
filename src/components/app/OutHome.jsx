@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Rodal from 'rodal';
 import 'rodal/lib/rodal.css';
-import LogInForm from "./LogInForm";
-import SignUpForm from "./SignUpForm"; 
+import LogInForm from "../forms/LogInForm";
+import SignUpForm from "../forms/SignUpForm"; 
 
 const OutHome = () => {
     const [logInVisible, setLogInVisible] = useState(false);      

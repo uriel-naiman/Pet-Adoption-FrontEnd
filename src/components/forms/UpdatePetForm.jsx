@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
-import { updatePet, uploadPetImage } from "../lib/api";
-import { useAuth } from "../context/auth";
+import { updatePet, uploadPetImage } from "../../lib/petApi";
+import { useAuth } from "../../context/auth";
 import { useAlert } from 'react-alert';
 
 const UpdatePetForm = () => {

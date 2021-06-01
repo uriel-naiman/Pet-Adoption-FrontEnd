@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { useAuth } from "../context/auth";
-import { getUsers, getPets } from "../lib/api";
+import { useAuth } from "../../context/auth";
+import { getUsers } from "../../lib/userApi";
+import { getPets } from "../../lib/petApi";
 import PetList from "./PetList";
 import UserList from "./UserList";
 import Rodal from 'rodal';

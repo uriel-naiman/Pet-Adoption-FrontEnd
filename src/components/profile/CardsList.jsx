@@ -1,4 +1,4 @@
-import SingleCard from "./SingleCard";
+import SingleCard from "../app/SingleCard";
 
 const CardsList = ({ petsArray }) => {
     return (

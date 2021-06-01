@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../context/auth';
-import { getPetsByUserId } from '../lib/api';
-import CardsList from './CardsList';
+import { useAuth } from '../../context/auth';
+import { getPetsByUserId } from '../../lib/petApi';
+import CardsList from '../profile/CardsList';
 
 const ProfilePetPage = () => {
     const auth = useAuth();

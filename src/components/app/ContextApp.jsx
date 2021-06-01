@@ -5,20 +5,20 @@ import {
     Route,
     Redirect,
   } from "react-router-dom";
-import ProfileForm from './ProfileForm';
-import ProfileHome from "./ProfileHome";
-import ProfilePetPage from "./ProfilePetPage";
-import SavedPetPage from "./SavedPetPage";
-import OutHome from "./OutHome";
-import Navbar from "./Navbar";
-import styles from "../Background.module.css";
-import { useAuth } from "../context/auth";
-import AdminPage from "./AdminPage";
-import PetForm from "./PetForm";
-import PetPage from "./PetPage";
-import UpdatePetForm from "./UpdatePetForm";
-import BasicSearchForm from "./BasicSearchForm";
-import AdvancedSearchForm from "./AdvancedSearchForm";
+import ProfileForm from '../forms/ProfileForm';
+import ProfileHome from "../profile/ProfileHome";
+import ProfilePetPage from "../profile/ProfilePetPage";
+import SavedPetPage from "../profile/SavedPetPage";
+import OutHome from "../app/OutHome";
+import Navbar from "../app/Navbar";
+import styles from "../../Background.module.css";
+import { useAuth } from "../../context/auth";
+import AdminPage from "../admin/AdminPage";
+import PetForm from "../forms/PetForm";
+import PetPage from "../app/PetPage";
+import UpdatePetForm from "../forms/UpdatePetForm";
+import BasicSearchForm from "../forms/BasicSearchForm";
+import AdvancedSearchForm from "../forms/AdvancedSearchForm";
 
 const ContextApp = () => {
   const auth = useAuth();

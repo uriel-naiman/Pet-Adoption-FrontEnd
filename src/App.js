@@ -1,4 +1,4 @@
-import ContextApp from './components/ContextApp';
+import ContextApp from './components/app/ContextApp';
 import AuthProvider from './context/auth';
 
 

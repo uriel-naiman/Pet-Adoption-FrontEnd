@@ -1,8 +1,8 @@
 import React from "react";
 import { useAlert } from "react-alert";
 import { useForm } from "react-hook-form";
-import { useAuth } from "../context/auth";
-import { logIn } from "../lib/api";
+import { useAuth } from "../../context/auth";
+import { logIn } from "../../lib/userApi";
 
 const LogInForm = () => {
   const auth = useAuth();

@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import localforage from 'localforage';
 import { useAlert } from "react-alert";
-import { getPetsByUserId } from "../lib/api";
+import { getPetsByUserId } from "../lib/userApi";
 localforage.config();
 
 export const AuthContext = createContext({
@@ -83,3 +83,12 @@ const AuthProvider = (props) => {
   )
 }
 export default AuthProvider;
+
+
+export function getAuthConfig(token) {
+  return ({
+    headers: {
+      Authorization: 'Bearer ' + token,
+    }
+  });
+}
