@@ -1,0 +1,11 @@
+.Background {
+    background-position: 100%;
+    background-image: linear-gradient(#F2CF63, #F2C063);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+
+}
